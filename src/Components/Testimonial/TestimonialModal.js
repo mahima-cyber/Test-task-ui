@@ -106,7 +106,7 @@ const TestimonialModal = ({setOpenModal, data, refetchList}) => {
 
         reader.readAsDataURL(selectedFile);
    }
-
+console.log(454);
     return(
         <div className="modal fade show" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <ToastContainer />
